@@ -1,0 +1,46 @@
+<div class="page-container {{ page.slug }}">
+    <div class="page-container-inner">
+        <div class="page-container-content">
+            <div class="header-count-down"></div>
+            <div id="wrapper" class="hfeed">
+                <div id="header">
+                    <div id="masthead">
+                        
+                        <div id="photos">
+                            <a id="photos-link" href="{{ '/photos' | relative_url }}">
+                                <span class="link-sub-text">Check Out Our</span>
+                                <span class="link-main-text">Photos</span>
+                            </a>
+                            <a id="rsvp-link" href="#">
+                                <span class="link-sub-text">Click Here To</span>
+                                <span class="link-main-text">RSVP</span>
+                            </a>
+                        </div>
+							
+                        <div id="branding" role="banner">
+                            <h1 id="site-title">
+                                <a href="{{ '/' | relative_url }}" alt="Jennifer and Brian" rel="home">
+                                    <span class="site-tagline">October First Two Thousand and Eleven</span>
+                                    <span class="site-name">Jennifer and Brian</span>
+                                </a>
+                            </h1>														
+                        </div><!-- #branding -->
+					
+                        <div id="access" role="navigation">
+                            <div class="skip-link screen-reader-text"><a href="#content" title="Skip to content">Skip to content</a></div>
+                                <div class="menu-header">
+                                    <ul id="menu-primary-navigation" class="menu">
+                                        {%- for link in site.navigation -%}
+                                        <li class="menu-item menu-item-type-custom menu-item-object-custom">
+                                            <a href="{{ link.url | relative_url }}">{{ link.title }}</a>
+                                        </li>
+                                        {%- endfor -%}
+                                    </ul>
+                                </div>								
+                            </div><!-- #access -->
+                        </div><!-- #masthead -->
+                    </div><!-- #header -->
+					
+                    <div id="main">
+                        <div id="container">
+	                        <div id="content" role="main">
