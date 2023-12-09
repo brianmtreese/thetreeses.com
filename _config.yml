@@ -20,7 +20,7 @@
 
 title: Jennifer and Brian | October First Two Thousand and Eleven
 description: >- # this means to ignore newlines until "baseurl:"
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/thetreeses.com" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
